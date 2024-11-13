@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSOCOM Command Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/ussocom-logo.png" alt="USSOCOM Logo" class="ussocom-logo">
+            <h1>USSOCOM Command Portal</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#codex" class="nav-link">Codex</a></li>
+                <li><a href="#index" class="nav-link">Index</a></li>
+                <li><a href="#information" class="nav-link">Information</a></li>
+                <li><a href="#blacklist" class="nav-link">Blacklist & Suspension</a></li>
+                <li><a href="#ranks" class="nav-link">Ranks & XP</a></li>
+                <li><a href="#announcements" class="nav-link">Announcements</a></li>
+                <li><a href="#login" class="nav-link">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="codex" class="content-section">
+            <h2>Codex</h2>
+            <p>Detailed guide on USSOCOM's operations and codified information.</p>
+        </section>
+
+        <section id="index" class="content-section">
+            <h2>Index</h2>
+            <p>Index of all USSOCOM personnel, divisions, and units.</p>
+        </section>
+
+        <section id="information" class="content-section">
+            <h2>Information</h2>
+            <p>General information and updates related to USSOCOM operations.</p>
+        </section>
+
+        <section id="blacklist" class="content-section">
+            <h2>Blacklist & Suspension Databases</h2>
+            <p>Click the button below to view the Blacklist & Suspension databases.</p>
+            <button onclick="openBlacklist()" class="btn">View Blacklist</button>
+            <div id="blacklist-embed" class="embed-section">
+                <iframe src="https://docs.google.com/document/d/1cZpzO613dCAIDGEDsSEFPHgqc14LMdTlxloelGb9T8s/preview" width="100%" height="600px"></iframe>
+            </div>
+            <div id="blacklist-db" class="database-section">
+                <h3>Blacklist Database</h3>
+                <ul>
+                    <li>John Doe - Suspended until 2025</li>
+                    <li>Jane Smith - Blacklisted</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ranks" class="content-section">
+            <h2>Ranks & XP Requirements</h2>
+            <table class="data-table">
+                <tr>
+                    <th>Rank</th>
+                    <th>XP Required</th>
+                </tr>
+                <tr>
+                    <td>Private</td>
+                    <td>0 XP</td>
+                </tr>
+               
